@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hedvig+Letters+Serif:opsz@12..24&family=Lato:wght@700&family=Pixelify+Sans&family=Roboto:ital,wght@1,100&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #94775E;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display:flex;
+    align-items: center;
+}
+
+.logoimg{
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.banner {
+    background-image: url(images/imagen.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 300px;
+}
+
+.tovar {
+background-color: #94775E;
+}
+
+h2 {
+    padding: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.tovars {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.car {
+    width: 30%;
+    border-radius: 10%;
+}
+
+.carimg {
+    width: 70%;
+    border-radius: 40%;
+}
+
+footer {
+    background-color: #704D2F;
+    padding: 20px;
+}
+
+.coperate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    margin-left: 45px;
+}
+
+.iconsimg {
+    padding-right: 45px;
+}
